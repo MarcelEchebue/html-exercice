@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio</title>
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Home -->
+    <section id="home">
+        <div>
+            <h1>Bienvenue sur mon Portfolio</h1>
+        </div>
+        
+        <div>
+            <p>Je suis un jeune développeur passionné par le web <i> statique </i> ou <i> dynamique.</i></p>
+            <p>Je trouve que la programmation est un bon metier, avec juste <strong>2 lignes de code</strong> on peut <del>resoudre</del> un probleme.</p>
+            <img src="./images/1.png" height="200" alt="Image de profil">
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <ol>
+            <li>Nom : EBANG ECHEBUE</li>
+            <li>Prénom : Marcelino</li>
+            <li>Parcours académique :</li>
+        </ol>
+
+            <table border="1">
+                
+            <tr>
+                <th>Diplome</th>
+                <th>Etablissement</th>
+                <th>Annee</th>
+            
+            </tr>
+
+            <tr>
+                <td>Certf. Into Web </td>
+                <td>GoMyCode</td>
+                <td>2025</td>
+            </tr>
+
+            <tr>
+                <td>C2i </td>
+                <td>Force N</td>
+                <td>2025</td>
+            </tr>
+
+            <tr>
+                <td>Master</td>
+                <td>Sup'Info</td>                
+                <td>2025</td>
+            </tr>
+            </table>
+        
+        <p>Mon parcours sur le dev web :</p>
+        <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/MJkdaVFHrto?autoplay=1&mute=1" 
+            title="YouTube video player" frameborder="0" 
+            allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" value="E. ECHEBUE Marcelino" readonly><br>
+
+            <label for="adresse">Adresse :</label>
+            <input type="text" id="adresse" name="adresse" value="Dakar, 2 rue Ouakam" readonly><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" value="echebue@gmail.com" readonly><br>
+
+            <label for="commentaire">Commentaire :</label><br>
+            <textarea name="commentaire" rows="4" cols="30"></textarea><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+</body>
+</html>
