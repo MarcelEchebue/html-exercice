@@ -2,33 +2,35 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Mon Portfolio</title>
+    <title>Port-folio</title>
 </head>
 <body>
 
-    <!-- Barre de navigation -->
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Barre de navigation qui va nous permet de se deplacer dans le differents section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Section Home -->
     <section id="home">
         <div>
-            <h1>Bienvenue sur mon Portfolio</h1>
+            <h1>Welcome to my Port-folio</h1>
         </div>
         
         <div>
             <p>Je suis un jeune développeur passionné par le web <i> statique </i> ou <i> dynamique.</i></p>
             <p>Je trouve que la programmation est un bon metier, avec juste <strong>2 lignes de code</strong> on peut <del>resoudre</del> un probleme.</p>
-            <img src="./images/1.png" height="200" alt="Image de profil">
+            <img src="./images/1.png" height="200" alt="mon profil">
         </div>
     </section>
 
-    <!-- Section À propos -->
+    <!-- Section About -->
     <section id="about">
         <h2>À propos de moi</h2>
         <ol>
@@ -86,7 +88,7 @@
             <label for="email">Email :</label>
             <input type="email" id="email" name="email" value="echebue@gmail.com" readonly><br>
 
-            <label for="commentaire">Commentaire :</label><br>
+            <label for="commentaire">Laissez votre commentaire :</label><br>
             <textarea name="commentaire" rows="4" cols="30"></textarea><br>
 
             <input type="submit" value="Envoyer">
